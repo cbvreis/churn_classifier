@@ -9,7 +9,7 @@ Os dados foram separados entre treino e teste, onde 80% dos dados foram selecion
 
 A seleção dos hiperparâmetros foi feita em conjunto com GridCV, componente baseado em força bruta para escolher os melhores hipeparâmetros com base nas escolhas prévias.
 
-Após o treino encontramos que as métricas reportadas em termos de F1-score, precision, recall, acurácia e AUC foram favoráveis, olhando para o precision e recall por grupo para achar o melhor threshold de separação entre as classes. Assim, decidiu-se que o melhor ponto de corte em 37%.
+Após o treino encontramos que as métricas reportadas em termos de F1-score, precision, recall, acurácia e AUC foram favoráveis, olhando para o precision e recall por grupo para achar o melhor threshold de separação entre as classes. Assim, decidiu-se que o melhor ponto de corte em 48.35%.
 
 Finalizada a modelagem, encontramos o maior preditor utilizando feature importance, a variável ltv. Porém é importante citar a presença das varíaveis message e new friend.
 
